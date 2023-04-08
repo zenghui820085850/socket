@@ -119,7 +119,7 @@ chmod +x /usr/local/bin/s5
 
 #设置默认用户名、默认开启帐号验证
 uname="123456"
-upasswd="654321"
+upasswd="6543211"
 port="5555"
 confFile=/etc/opt/ss5/ss5.conf
 echo -e $uname $upasswd >> /etc/opt/ss5/ss5.passwd
