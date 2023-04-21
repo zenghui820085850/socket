@@ -118,9 +118,9 @@ mv /root/Socks5/s5 /usr/local/bin/
 chmod +x /usr/local/bin/s5
 
 #设置默认用户名、默认开启帐号验证
-uname="123456"
-upasswd="6543211"
-port="5555"
+uname="yuexi99188"
+upasswd="999188"
+port="5577"
 confFile=/etc/opt/ss5/ss5.conf
 echo -e $uname $upasswd >> /etc/opt/ss5/ss5.passwd
 sed -i '87c auth    0.0.0.0/0               -               u' $confFile
